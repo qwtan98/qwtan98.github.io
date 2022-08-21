@@ -8,11 +8,17 @@
             background-repeat: no-repeat;
             background-size: cover ;
         }
+
+        @keyframes mushroom-move {
+            50% {right: 300px;}
+            100%{right: 15px;}
+        }
         .mushroom-pic {
             position: fixed;
             bottom: 15px;
             right: 15px;
-
+            animation-name: mushroom-move;
+            animation-duration: 8s;
         }
         .overlay {
             height: 100%;
