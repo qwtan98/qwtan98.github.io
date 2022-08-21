@@ -10,7 +10,8 @@
         }
 
         @keyframes mushroom-move {
-            50% {right: 1000px; transform: scaleX(-1);}
+            50% {right: 1500px;}
+            50% {transform: scaleX(-1);}
             100%{right: 15px; transform: scaleX(-1);}
         }
         .mushroom-pic {
@@ -20,6 +21,7 @@
             animation-name: mushroom-move;
             animation-duration: 15s;
             animation-iteration-count: infinite;
+            animation-timing-function: linear;
         }
         .overlay {
             height: 100%;
