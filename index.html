@@ -3,6 +3,13 @@
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
 
+        .audio-icon {
+            cursor: url('./cursor-select.png'), auto;	
+            position: fixed;
+            top: 10px;
+            right: 10px;
+        }
+        
         @keyframes bg-change {
             0%  {background-image: url("bg1.jpg");}
             23%  {background-image: url("bg1.jpg");}
@@ -22,7 +29,6 @@
             background-size: cover ;
             animation-name: bg-change;
             animation-duration: 60s;
-            animation-timeline:;
             animation-iteration-count: infinite;
             animation-timing-function: linear;
             cursor: url('./cursor.png'), auto;	
@@ -70,6 +76,10 @@
 </head>
 <body>
     <div class="overlay">
+        <div class="audio-icon">
+            <img src="audio_sound.svg" width="100" height="100">
+            <iframe width="50" height="50" src="https://www.youtube.com/embed/DhUdOO9UNwY" title="[MapleStory BGM] Ereve: Raindrop Flower" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+        </div>
         <div class="overlay-text">
             <h1>Hello!</h1>
             <br>
