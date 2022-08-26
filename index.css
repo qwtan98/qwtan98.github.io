@@ -10,6 +10,7 @@
 
 header.header-row {
     background-color: bisque;
+    padding: 20px
 }
 
 header.header-row a:hover {
