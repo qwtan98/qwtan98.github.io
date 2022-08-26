@@ -4,15 +4,17 @@
 * {
     font-family: 'Dosis', sans-serif;
     margin: 0px;
-    padding: 0px;
-    
+
     color:#1b0505
 }
 
-.header-row {
+header.header-row {
     background-color: bisque;
 }
 
+header.header-row a:hover {
+    background-color: #ffdeb5;
+}
 .material-symbols-outlined {
   font-variation-settings:
   'FILL' 1,
