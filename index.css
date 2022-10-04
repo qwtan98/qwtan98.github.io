@@ -10,16 +10,10 @@
 
 header.header-row {
     background-color: bisque;
-    
-    min-width: 100%;
-}
-
-header.header-row a:hover {
-    background-color: #ffdeb5;
 }
 
 header.header-row .logo {
-    padding: 30px;
+    padding: 30px 30px 30px 30px;
 }
 .material-symbols-outlined {
   font-variation-settings:
