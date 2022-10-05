@@ -61,6 +61,11 @@
     margin: 20px;
 }
 
+.intro-section-details-card:hover {
+    transition: transform 0.25s ease;
+    transform: scale(1.05);
+}
+
 .contact-icon {
     height: 64px;
     width: 64px;
