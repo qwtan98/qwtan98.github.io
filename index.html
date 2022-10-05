@@ -12,8 +12,173 @@
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
+  <img class ="cat" src="img/cat.gif" alt="">
+
+  <div class="mx-auto" style="width: 100%"><!-- put the carousel in a box and center it -->
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./img/seasons/spring.png" class="d-block w-100" alt="Spring" style="filter: brightness(50%);">
+          <div class="carousel-caption d-none d-md-block">
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./img/seasons/summer.png" class="d-block w-100" alt="Summer" style="filter: brightness(50%);">
+          <div class="carousel-caption d-none d-md-block">
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./img/seasons/autumn.png" class="d-block w-100" alt="Autumn" style="filter: brightness(50%);">
+          <div class="carousel-caption row d-none d-md-block">
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./img/seasons/winter.png" class="d-block w-100" alt="Winter" style="filter: brightness(50%);">
+          <div class="carousel-caption row d-none d-md-block">
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+
+  <div id="intro-section">
+      <div class="container-fluid intro-tab">
+        <p class="col intro-text text-center">
+          <u>Tan</u> Quan Wah
+        </p>
+      </div>
+  
+    <div class="container-fluid d-block">
+      <div class="row">
+        <img src="img/mypfp.png" alt="definitely me" class="pfp img-fluid mx-auto">
+        <h3 class="text-center pfp-caption">I don't have a nice selfie, so here's a <u class ="text-uppercase">cute</u> pokemon</h3>
+      </div>
+    </div>
+  </div>
+
+  <div id="intro-section-details">
+    <div class="container-fluid">
+      
+      <div class="row d-flex justify-content-evenly">
+
+        <div class="card col-xxl-3 col-lg-5 col-md-8 col-sm-10 intro-section-details-card" style="padding:0;">
+          <img class="card-img-top" src="img/about-me/about-me-image.jpg" alt="Card image cap" height="350px">
+          <div class="card-body text-center" height="250px">
+            <h4 class="card-title">About Me 🎲</h4>
+            <h5 class="lead card-subtitle mb-2 text-muted fst-italic">Don't grow up it's a trap</h5>
+            <p class="card-text">
+              <ul class="list text-start">
+                <li>Year 2 in Singapore Management University (SMU)</li>
+                <li>Majoring in Bachelor Science (Information Systems)</li>
+                <li>INFP | 4w5 | ♓♒</li>
+                <li><b>Fun fact:</b> If I look like I know what I'm doing, I most likely don't</li>
+              </ul>
+            </p>
+          </div>
+        </div>
+
+        <div class="card col-xxl-3 col-lg-5 col-md-8 col-sm-10 intro-section-details-card" style="padding:0;">
+          <img class="card-img-top hover-zoom" src="img/about-me/skills-image.jpg" alt="Card image cap" height="350px">
+          <div class="card-body text-center" height="250px">
+            <h4 class="card-title">Skills ☂️</h4>
+            <h5 class="lead card-subtitle mb-2 text-muted fst-italic">If you're going through hell, keep going</h5>
+            <p class="card-text">
+              <ul class="list text-start">
+                <li><b>Softwares:</b> Visual Code | Visual Studios | Unity3D </li>
+                <li><b>Programming Languages:</b> Python | C# | C++ | HTML5 | CSS | JavaScript | Bootstrap 5 | MySQL | PHP | Vue.js</li>
+                <li><b>Spoken/Written Languages:</b> English | Mandarin</li>
+              </ul>
+            </p>
+          </div>
+        </div>
+
+        <div class="card col-xxl-3 col-lg-5 col-md-8 col-sm-10 intro-section-details-card" style="padding:0;">
+          <img class="card-img-top" src="img/about-me/projects-image.jpg" alt="Card image cap" height="350px">
+          <div class="card-body text-center" height="250px">
+            <h4 class="card-title">Projects 🎓</h4>
+            <h5 class="lead card-subtitle mb-2 text-muted fst-italic">There are no accidents</h5>
+            <p class="card-text">
+              <ul class="list text-start">
+                <li><b>Polytechnic:</b> <a href ='https://qwtan98.wixsite.com/tqw4/projects'>Projects</a> </li>
+                <li><b>University:</b><i> Coming soon...</i></li>
+              </ul>
+            </p>
+          </div>
+        </div>
+
+        <div class="w-100"></div>
+
+        <div class="card col-xxl-3 col-lg-5 col-md-8 col-sm-10 intro-section-details-card" style="padding:0;">
+          <img class="card-img-top" src="img/about-me/hobbies-image.jpg" alt="Card image cap" height="350px">
+          <div class="card-body text-center" height="250px">
+            <h4 class="card-title">Hobbies 📎</h4>
+            <h5 class="lead card-subtitle mb-2 text-muted fst-italic">Beware the hobby that eats</h5>
+            <p class="card-text">
+              <ul class="list text-start">
+                <li>Music 🎵</li>
+                <li>Karaoke 🎤</li>
+                <li>Sleep 💤</li>
+                <li>Daydream about socialising but never actually doing it 💯</li>
+              </ul>
+            </p>
+          </div>
+        </div>
+
+        <div class="card col-xxl-3 col-lg-5 col-md-8 col-sm-10 intro-section-details-card" style="padding:0;">
+          <img class="card-img-top" src="img/about-me/contact-me-page.jpg" alt="Card image cap" height="350px">
+          <div class="card-body text-center" height="250px">
+            <h4 class="card-title">Contacts 🔰</h4>
+            <h5 class="lead card-subtitle mb-2 text-muted fst-italic">But here's my number, so call me, maybe~</h5>
+            <p class="card-text">
+              <ul class="list-inline d-flex justify-content-evenly">
+
+                <li class="list-inline-item">
+                  <a href="https://www.linkedin.com/in/qwtan98/" target="_blank">
+                    <img class="contact-icon hover-shadow" src="./img/contact/linkedin-icon.png" alt="Linkedin icon">
+                  </a>
+                </li>
+
+                <li class="list-inline-item">
+                  <a href="https://github.com/qwtan98" target="_blank" rel="noopener noreferrer">
+                    <img class="contact-icon hover-shadow" src="./img/contact/github-icon.png" alt="GitHub icon">
+                  </a>
+                </li>
+
+                <li class="list-inline-item">
+                  <a href="mailto:notarealemail@fortesting.com" target="_blank" rel="noopener noreferrer">
+                    <img class="contact-icon hover-shadow" src="./img/contact/email-icon.png" alt="Email icon">
+                  </a>
+                </li>
+
+              </ul>
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  
+
+</body>
+</button>
     <!-- Bootstrap CSS and JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous">
     </script>
+    <script src="index.js"></script>
   </body>
 </html>
